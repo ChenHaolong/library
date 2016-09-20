@@ -30,4 +30,6 @@ dependencies {
     compile 'com.squareup.picasso:picasso:2.5.2'
     //recyclerView封装adapter
     compile 'com.zhy:base-rvadapter:3.0.3'
+    compile project(path: ':utils')
+    compile project(path: ':utils')
 }

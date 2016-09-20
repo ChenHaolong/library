@@ -1,7 +1,7 @@
 package com.example.chenhaolong.myframe.net;
 
+import com.chl.NetworkUtils;
 import com.example.chenhaolong.myframe.app.MyApp;
-import com.example.chenhaolong.myframe.utils.NetworkUtils;
 
 import java.io.IOException;
 

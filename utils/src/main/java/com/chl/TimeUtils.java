@@ -4,12 +4,11 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import static com.example.chenhaolong.myframe.utils.UnitUtils.*;
-import static com.example.chenhaolong.myframe.utils.UnitUtils.DAY;
-import static com.example.chenhaolong.myframe.utils.UnitUtils.HOUR;
-import static com.example.chenhaolong.myframe.utils.UnitUtils.MIN;
-import static com.example.chenhaolong.myframe.utils.UnitUtils.MSEC;
-import static com.example.chenhaolong.myframe.utils.UnitUtils.SEC;
+import static com.chl.UnitUtils.DAY;
+import static com.chl.UnitUtils.HOUR;
+import static com.chl.UnitUtils.MIN;
+import static com.chl.UnitUtils.MSEC;
+import static com.chl.UnitUtils.SEC;
 
 /**
  * Name MyFrame

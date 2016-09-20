@@ -13,10 +13,8 @@ import com.example.chenhaolong.myframe.R;
 import com.example.chenhaolong.myframe.bean.LoginBean;
 import com.example.chenhaolong.myframe.net.PicassoUtil;
 import com.example.chenhaolong.myframe.presenter.PresenterImp;
-import com.example.chenhaolong.myframe.utils.DownloadServer;
 import com.example.chenhaolong.myframe.view.viewinterface.ViewImpl1;
 
-import java.io.File;
 
 public class MainActivity extends BaseActivity<ViewImpl1, PresenterImp> implements ViewImpl1, View.OnClickListener {
 
