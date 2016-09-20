@@ -21,6 +21,7 @@ import java.io.File;
 public class MainActivity extends BaseActivity<ViewImpl1, PresenterImp> implements ViewImpl1, View.OnClickListener {
 
     private TextView tv;
+
     private ImageView iv;
 
     @Override
