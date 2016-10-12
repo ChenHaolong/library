@@ -1,7 +1,4 @@
 apply plugin: 'com.android.library'
-//apply plugin: 'com.github.dcendents.android-maven'
-// Your Group
-//group='com.github.chenhaolong'
 
 android {
     compileSdkVersion 24
@@ -31,4 +28,5 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:24.2.1'
     testCompile 'junit:junit:4.12'
+    compile 'com.android.support:recyclerview-v7:23.4.0'
 }

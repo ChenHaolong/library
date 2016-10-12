@@ -21,7 +21,7 @@ android {
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile 'com.android.support:appcompat-v7:24.1.1'
+    compile 'com.android.support:appcompat-v7:24.2.1'
     compile 'com.squareup.retrofit2:retrofit:2.1.0'
     compile 'com.squareup.retrofit2:converter-gson:2.1.0'
     compile 'com.squareup.okhttp3:logging-interceptor:3.4.1'
@@ -30,6 +30,8 @@ dependencies {
     compile 'com.squareup.picasso:picasso:2.5.2'
     //recyclerView封装adapter
     compile 'com.zhy:base-rvadapter:3.0.3'
+    //封装的一些工具类
     compile project(path: ':utils')
-    compile project(path: ':utils')
+    //封装的自定义View
+    compile project(path: ':customview')
 }

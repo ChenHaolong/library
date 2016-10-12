@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 默认title -->
+    <declare-styleable name="DefTitleLayout">
+        <attr name="def_leftText" format="string" />
+        <attr name="def_rightText" format="string" />
+        <attr name="def_middleText" format="string" />
+        <attr name="def_leftTextSize" format="dimension" />
+        <attr name="def_rightTextSize" format="dimension" />
+        <attr name="def_middleTextSize" format="dimension" />
+        <attr name="def_leftTextColor" format="color" />
+        <attr name="def_rightTextColor" format="color" />
+        <attr name="def_middleTextColor" format="color" />
+        <attr name="def_leftDrawable" format="color|reference" />
+        <attr name="def_rightDrawable" format="color|reference" />
+        <attr name="def_middleDrawable" format="color|reference" />
+    </declare-styleable>
+</resources>
