@@ -5,25 +5,32 @@ package com.chl;
  * Created by chenhaolong on 2016/8/12.
  */
 public class UnitUtils {
+    /******************** 存储相关常量 ********************/
     /**
      * Byte与Byte的倍数
      */
-    public static final long BYTE = 1;
+    public static final int BYTE = 1;
     /**
      * KB与Byte的倍数
      */
-    public static final long KB = 1024;
+    public static final int KB = 1024;
     /**
      * MB与Byte的倍数
      */
-    public static final long MB = 1048576;
+    public static final int MB = 1048576;
     /**
      * GB与Byte的倍数
      */
-    public static final long GB = 1073741824;
+    public static final int GB = 1073741824;
 
+    public enum MemoryUnit {
+        BYTE,
+        KB,
+        MB,
+        GB
+    }
 
-
+    /******************** 时间相关常量 ********************/
     /**
      * 毫秒与毫秒的倍数
      */
@@ -44,4 +51,14 @@ public class UnitUtils {
      * 天与毫秒的倍数
      */
     public static final int DAY = 86400000;
+
+    public enum TimeUnit {
+        MSEC,
+        SEC,
+        MIN,
+        HOUR,
+        DAY
+    }
+
+
 }

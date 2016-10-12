@@ -23,9 +23,7 @@
             </intent-filter>
         </activity>
 
-        <service android:name=".utils.DownloadServer" />
-
-        <activity android:name=".view.SecondActivity"></activity>
+        <activity android:name=".view.SecondActivity"/>
     </application>
 
 </manifest>
