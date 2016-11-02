@@ -9,6 +9,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.chl.customview.imageview.ScaleImageView;
 import com.example.chenhaolong.myframe.R;
 import com.example.chenhaolong.myframe.bean.LoginBean;
 import com.example.chenhaolong.myframe.net.PicassoUtil;
@@ -20,7 +21,7 @@ public class MainActivity extends BaseActivity<ViewImpl1, PresenterImp> implemen
 
     private TextView tv;
 
-    private ImageView iv;
+    private ScaleImageView iv;
 
     @Override
     protected void initVariables() {
@@ -30,7 +31,9 @@ public class MainActivity extends BaseActivity<ViewImpl1, PresenterImp> implemen
     protected void initViews(Bundle savedInstanceState) {
         setContentView(R.layout.activity_main);
         tv = (TextView) findViewById(R.id.tv);
-        iv= (ImageView) findViewById(R.id.imageView);
+        iv= (ScaleImageView) findViewById(R.id.imageView);
+        iv.setScaleX(5);
+        iv.setScaleY(6);
         iv.setOnClickListener(this);
     }
 

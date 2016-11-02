@@ -15,4 +15,11 @@
         <attr name="def_rightDrawable" format="color|reference" />
         <attr name="def_middleDrawable" format="color|reference" />
     </declare-styleable>
+
+    <!-- 按比例的ImageView -->
+    <declare-styleable name="ScaleImageView">
+        <attr name="scaleX" format="integer"/>
+        <attr name="scaleY" format="integer"/>
+    </declare-styleable>
+
 </resources>
