@@ -47,6 +47,7 @@ public class ScaleImageView extends ImageView {
         int height = View.MeasureSpec.getSize(heightMeasureSpec);
         if (scaleX!=0 && scaleY!=0)
             height= width*scaleY/scaleX;
+
         setMeasuredDimension(width, height);
     }
 
